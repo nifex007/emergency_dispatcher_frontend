@@ -36,13 +36,13 @@ import {
   Col
 } from "reactstrap";
 
-import ill from '../../assets/img/ill/ill-2.svg';
-import img1 from '../../assets/img/theme/img-1-1200x1000.jpg';
+import ill from '../../assets/img/med/lab2.jpg';
+import img1 from '../../assets/img/med/4.jpg';
 import promo1 from '../../assets/img/med/lab.png';
 import { CNavbars, CFooters } from '../../components/index';
 
 const { MainNavbar } = CNavbars
-const {MainFooter} = CFooters
+const { MainFooter } = CFooters
 
 
 
@@ -263,12 +263,12 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-settings-gear-65" />
+                              <i className="fa fa-medkit" />
                             </Badge>
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Carefully crafted components
+                              Providing best medical services
                             </h6>
                           </div>
                         </div>
@@ -280,11 +280,11 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-html5" />
+                              <i className="fa fa-ambulance" />
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">Quick response to every emergency</h6>
                           </div>
                         </div>
                       </li>
@@ -295,12 +295,12 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-satisfied" />
+                              <i className="fa fa-hospital-o" />
                             </Badge>
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                              Access to top notch specialist
                             </h6>
                           </div>
                         </div>
@@ -328,7 +328,7 @@ class Landing extends React.Component {
                   <div className="d-flex px-3">
                     <div>
                       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i className="ni ni-building text-primary" />
+                        <i className="fa fa-circle-o-notch text-primary" />
                       </div>
                     </div>
                     <div className="pl-4">
@@ -345,25 +345,25 @@ class Landing extends React.Component {
                       <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
+                            <i className="fa fa-circle-o" />
                           </div>
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-success">
                             Awesome Support
-              </h5>
+                          </h5>
                           <p>
                             The Arctic Ocean freezes every winter and much of
                             the sea-ice then thaws every summer, and that
                             process will continue whatever.
-              </p>
+                          </p>
                           <a
                             className="text-success"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-              </a>
+                          </a>
                         </div>
                       </div>
                     </CardBody>
@@ -373,7 +373,7 @@ class Landing extends React.Component {
                       <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
+                            <i className="fa fa-check-circle-o" />
                           </div>
                         </div>
                         <div className="pl-4">
@@ -444,12 +444,12 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        Heart To Heart
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        Integer sit amet mattis quam
+                        Praesent ullamcorper dui turpis
+                        Integer sit amet mattis quam
                       </p>
                     </blockquote>
                   </Card>
@@ -457,38 +457,33 @@ class Landing extends React.Component {
                 <Col md="6">
                   <div className="pl-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                      <i className="ni ni-settings" />
+                      <i className="fa fa-heart-o" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Consult with the Best Doctors</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      Integer pulvinar leo id viverra feugiat.Sed porttitor orci vel fermentum elit maximus.
+                      Curabitur ut turpis massa in condimentum libero.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Integer pulvinar leo id viverra feugiat.Sed porttitor orci vel fermentum elit maximus.
+                      Curabitur ut turpis massa in condimentum libero.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Integer pulvinar leo id viverra feugiat.Sed porttitor orci vel fermentum elit maximus.
+                      Curabitur ut turpis massa in condimentum libero.
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      Consult Now
                     </a>
                   </div>
                 </Col>
               </Row>
             </Container>
           </section>
-
-
           <section className="section section-lg bg-gradient-default">
 
             <Container className="pt-lg pb-300">

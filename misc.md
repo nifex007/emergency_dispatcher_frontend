@@ -32,10 +32,6 @@ Lets Talk about Hospitality
 WE PROVIDE BEST MEDICAL SERVICES
 WE PROVIDE TOP DOCTORS
 We Care And Protect Your Health.
-We Will Help To Find Health, To Everyone.
-We Do Our Best For You And Your Health.
-We Will Help To Find Health, To Everyone.
-We Care And Protect Your Health.
 We Do Our Best For You And Your Health.
 We Will Help To Find Health, To Everyone.
 
