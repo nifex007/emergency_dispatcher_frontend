@@ -328,15 +328,14 @@ class Landing extends React.Component {
                   <div className="d-flex px-3">
                     <div>
                       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i className="fa fa-circle-o-notch text-primary" />
+                        <i className="fa fa-bullhorn text-primary" />
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">Broadcast</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        Integer pulvinar leo id viverra feugiat.Sed porttitor orci vel fermentum elit maximus.
+                        Curabitur ut turpis massa in condimentum libero.
           </p>
                     </div>
                   </div>
@@ -345,25 +344,24 @@ class Landing extends React.Component {
                       <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="fa fa-circle-o" />
+                            <i className="fa fa-circle-o-notch" />
                           </div>
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-success">
-                            Awesome Support
+                            Acknowledge
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            Integer pulvinar leo id viverra feugiat.Sed porttitor orci vel fermentum elit maximus.
+                            Curabitur ut turpis massa in condimentum libero.
                           </p>
-                          <a
+                          {/* <a
                             className="text-success"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </CardBody>
@@ -378,20 +376,19 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            Dispatch
               </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            Integer pulvinar leo id viverra feugiat.Sed porttitor orci vel fermentum elit maximus.
+                            Curabitur ut turpis massa in condimentum libero.
               </p>
-                          <a
+                          {/* <a
                             className="text-warning"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-              </a>
+              </a> */}
                         </div>
                       </div>
                     </CardBody>
@@ -489,16 +486,13 @@ class Landing extends React.Component {
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
+                  <h2 className="display-3 text-white">Contact Us</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                 Tell us what's on your mind.
                   </p>
                 </Col>
               </Row>
-              <Row className="row-grid mt-5">
+              {/* <Row className="row-grid mt-5">
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
@@ -529,7 +523,7 @@ class Landing extends React.Component {
                     up the bulk of the card's content.
                   </p>
                 </Col>
-              </Row>
+              </Row> */}
             </Container>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
@@ -555,10 +549,10 @@ class Landing extends React.Component {
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
                     <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Contact Us?</h4>
+                      {/* <h4 className="mb-1">Contact Us?</h4>
                       <p className="mt-0">
                         Tell us what's on your mind.
-                      </p>
+                      </p> */}
                       <FormGroup
                         className={classnames("mt-5", {
                           focused: this.state.nameFocused
